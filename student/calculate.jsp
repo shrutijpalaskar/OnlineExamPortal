@@ -49,8 +49,9 @@ String op=" ",mks=" ",anw=" ";
 	}
 
 	out.print("Your score="+tmarks);
-// Writing score obtained by student to the DB object
 
 BasicDBObject doc = new BasicDBObject("rno",""+rlno).append("marks" ,""+tmarks);
-colletn.insert(doc);
+
+BasicDBObject doc = new BasicDBObject("rno",""+rlno).append("marks" ,""+tmarks);
+
 %>
