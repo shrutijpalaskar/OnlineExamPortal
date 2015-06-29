@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+
+<head>
+<title>Admin Login</title>
+</head>
+
+<style type="text/css">
+
+*{
+   padding:0px;
+   margin:0px;
+ }
+#pic{ position: absolute; top: 260px;
+	left:270px;}
+#td1
+  {
+      padding-left:25px;
+  }
+
+#tb{ position: absolute;
+	top:290px;
+	left: 600px;
+	letter-spacing : 1px;
+	font-family : Georgia;
+	font-size : 24px;}
+
+#td2
+  {
+      padding-left:150px;
+  }
+
+ 
+ #div1
+    {
+	  display:-webkit-box;
+	 -webkit-box-orient:horizontal;
+	  border:3px solid white;
+	  margin:2px auto;
+          padding:0px;
+          text-align:center;
+          background:black;	
+        /* -webkit-box-shadow:rgba(110,110,110,1.0) 10px 14px 8px;
+          background:-webkit-radial-gradient(center,circle,yellow 0%,blue 60%);	*/  
+  }
+  #p1
+    {
+	text-align:left;
+	padding-left:5px;
+  }	
+	
+  
+  #outer{
+	width : 920px;
+	height: 400px;
+	border-style : solid;
+	background-image : url('qwerty.jpg');
+	letter-spacing : 2px;
+	font-family : Georgia;
+	font-size : 36px;
+}
+
+p{
+	
+	
+}
+ 
+</style>
+
+<body id="body1">
+   
+     <div id="div1">
+	
+<form action="admin_login.jsp" method="post">
+<table>
+     <tr>
+        <td id="td1">
+	   <img src="logo.png" width="145" height="145" />   
+        </td>
+     
+        <td id="td2">
+          <img src="pict2.png" />
+	 
+        </td>
+    </tr>
+</table>	
+ <img id="pic" src = "admin_icon.png" height="270" width="270"/>
+	 </div>
+	<center>
+		<p id="outer"> <b>Admin Login </b></p>
+		
+	</center>
+Invalid Password or Username Try Again!!
+<p id= tb>
+Username : <input type="text" name="uname" />
+	     <br /><br />
+		 Password : <input type="password" name="pword" />
+		 <br /><br />
+		 <input type="submit" name="submit" Value="Login">
+</p> 
+</form>
+</body>
+
+</html>

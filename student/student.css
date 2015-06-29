@@ -1,0 +1,69 @@
+*{
+   padding:0px;
+   margin:0px;
+ }
+#body1
+{
+	  
+	  background:url("study.jpg");
+	  background-size:1366px 768px;
+	  background-repeat:no-repeat;
+	  
+}
+#td1
+  {
+      padding-left:25px;
+  }
+
+
+#td2
+  {
+      padding-left:150px;
+  }
+
+ 
+ #div1
+    {
+	  display:-webkit-box;
+	 -webkit-box-orient:horizontal;
+	  border:3px solid white;
+	  margin:2px auto;
+          padding:0px;
+          text-align:center;
+          background:black;	
+        /* -webkit-box-shadow:rgba(110,110,110,1.0) 10px 14px 8px;
+          background:-webkit-radial-gradient(center,circle,yellow 0%,blue 60%);	*/  
+  }
+  #p1
+    {
+	text-align:left;
+	padding-left:5px;
+  }	
+	
+  #h11
+    {
+	    text-shadow:rgb(110,110,110) 8px 8px 6px;
+	    padding:35px 150px;
+	    color:black 	;
+	    font:bold 60px arial;
+  }
+  
+  #div2
+     {
+	  -webkit-box-shadow:rgba(110,110,110,1.0) 10px 14px 8px;
+	   border:4px solid white;
+	 /* background:#F0F8FF;  */
+          color:#000000;
+	  width:320px;
+	  text-align:center;
+          padding:20px;
+	  margin:90px 880px;
+	  text-shadow:rgb(110,110,110) 8px 8px 6px;
+	  
+   }
+  #h22
+     {
+	 text-shadow:rgb(110,110,110) 8px 8px 6px;
+	 border-bottom:4px dashed black;
+	 padding-bottom:10px;
+   }	 

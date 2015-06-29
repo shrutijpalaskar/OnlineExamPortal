@@ -1,0 +1,53 @@
+body { background-image:url('qwerty.jpg'); 
+		background-repeat:no-repeat;
+		background-size:1366px 700px;
+	} 
+
+#color {background-color:black;
+		}
+
+#border {border:solid black;
+			background-color:#F7FFFE;
+			color:black;
+			width:1100px;
+			height:450px;
+		}
+			
+#border1 {width:1000px; text-align:left;
+			border-bottom:solid thin; 
+		}
+			
+#tab {position:relative;
+		left:-400px;}
+		
+button {font-family : Georgia;
+		 font-size:15px;}
+
+.hover:hover {background-color:cyan; font-size:16px ; size:50px;}		 
+
+#pos {position:absolute;
+		top:570px;}
+		
+#pos1 {position:absolute;
+		left:180px;
+		top:580px;
+		}
+		
+#pos2 {position:absolute;
+		left:600px;
+		top:580px;}
+		
+#pos3 {position:absolute;
+		left:900px;
+		top:580px;
+		}
+
+#pos4 {position:absolute;
+		left:140px;
+		}
+		
+#pos5 {position:absolute;
+		left:420px;}
+		
+#pos6 {position:absolute;
+		left:1050px;}

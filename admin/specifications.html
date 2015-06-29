@@ -1,0 +1,244 @@
+<html>
+<head>
+<title>PICT ONLINE EXAM PORTAL</title>
+</head>
+<style type = "text/css">
+
+body {background-color: #8EFDE0; 
+ 	  background:url(books2.jpg); 
+	  background-size:1366px 875px; 
+	  background-repeat:no-repeat;
+	  color:white;
+	  font-size:16;}
+
+
+ ul li{
+        float: left;
+        width: 170px;
+        text-align: center;
+        line-height: 25px;
+	margin-left:0px;
+    }
+    ul li a{
+        display: block;
+        padding: 5px;
+        color: #3;
+        background: #e2f2f2;
+        text-decoration: none;
+    }
+    ul li a:hover{
+		border:1px solid;
+        color: #fff;
+        background: #939393;
+    }
+    ul li ul{
+        display: none;
+    }
+	ul li:hover ul{
+        display: block;
+    }
+
+
+
+
+
+
+	  
+.tab {background-color:#C0DAF3; 
+	  color:red;}
+
+		a:link{color:black; text-decoration:none;}
+		
+		a:hover{background-color:#0C0959;
+				text-decoration:underline;
+				color:white;
+				font-weight:bold;}
+		
+#x{width:200px;}
+
+#s2 {width:50px}
+
+.col {width : 350px;}
+
+</style>
+
+<body>
+
+<center>
+<img src="pict.png" />
+</center>
+<br>
+<table border='4%' width='100%' class="tab" cellpadding="6">
+<ul>
+<li><a href="admin_home.jsp">HOME</a></li>
+<li><a href="notices1.html">NOTICES</a>
+			<ul><li><a href="create_notice.html">CIRCULATE A NOTICE</a></li>
+			<li><a href="today_notice.jsp">TODAY'S NOTICES</a></li>
+			<li><a href="disp_all_notices.jsp">VIEW ALL NOTICES</a></li>
+		
+	</li></ul>
+
+
+<li><a href="specifications.html">SPECIFICATIONS</a></li>
+<li><a href="select_class.html">QUESTION PAPERS</a></li>
+<li><a href="copytest_select_class.html">COPY TEST</a></li>
+<li><a href="select_class_result.html">RESULTS</a></li>
+<li><a href="/onlineexam/main_page.html">SIGN OUT</a></li>
+</ul>
+</table>
+<br />
+<form action="specifications.jsp" method ='post' >
+<input type="hidden" name="teacher_id" value="xyz">
+<input type="hidden" name="queno" value="0">
+<table width= "100%" cellpadding="6" >
+<tr>
+	<td width="350"><b>UNIT TEST</b></td>
+	<td >
+		<select name = "utno">
+		<option value='ut1'>UT1</option>
+		<option value='ut2'>UT2</option>
+	</td>
+</tr>
+<tr>
+	<td width="350"><b>CLASS</b></td>
+	<td >
+		
+		<select name = "class">
+		<option value='se1'>SE-&#8544</option>
+		<option value='se2'>SE-&#8545</option>
+		<option value='se3'>SE-&#8546</option>
+		<option value='se4'>SE-&#8547</option>
+		
+	</td>
+</tr>
+<tr>
+	<td><b>SUBJECT</b></td>
+	<td>
+		
+		<select name = "subject">
+		<option value='DS'> Discrete Structures (D.S.) </option>
+		<option value='DSPS'> Data Structures and Problem Solving (D.S.P.S.) </option>
+		<option value='DELD'> Digital Electronics and Logic Design (D.E.L.D.) </option>
+		<option value='OSA'> Operating System Architecture (O.S.A.) </option>
+		<option value='MPA'> Microprocessor Architecture (M.A.) </option>
+		
+	</td>
+</tr>
+<tr>
+	<td><b>DATE</b></td>
+	<td>
+		
+		<input name="date" type ="text"><p>(YYYY-MM-DD)
+		
+	</td>
+</tr>
+</table>
+<br/>
+<table  cellpadding="5">
+<tr>
+	<td class="col"><b>START TIME</b></td>
+	
+	
+	<td>
+		<select name = "t1">
+		<option> 01 </option>
+		<option> 02 </option>
+		<option> 03 </option>
+		<option> 04 </option>
+		<option> 05 </option>
+		<option> 06 </option>
+		<option> 07 </option>
+		<option> 08 </option>
+		<option> 09 </option>
+		<option> 10 </option>
+		<option> 11 </option>
+		<option> 12 </option>
+	</td>
+	
+	<td>
+		<select name = "m1">
+		<option> 00 </option>
+		<option> 15 </option>
+		<option> 30 </option>
+		<option> 45 </option>
+	</td>
+	
+	<td>
+		<select name = "am">
+		<option> AM </option>
+		<option> PM </option>
+	</td>
+	
+		
+</tr>
+
+<tr>
+	<td><b>END TIME</b></td>
+	
+	
+	<td>
+		<select name = "t2">
+		<option> 01 </option>
+		<option> 02 </option>
+		<option> 03 </option>
+		<option> 04 </option>
+		<option> 05 </option>
+		<option> 06 </option>
+		<option> 07 </option>
+		<option> 08 </option>
+		<option> 09 </option>
+		<option> 10 </option>
+		<option> 11 </option>
+		<option> 12 </option>
+	</td>
+	
+	<td>
+		<select name = "m2">
+		<option> 00 </option>
+		<option> 15 </option>
+		<option> 30 </option>
+		<option> 45 </option>
+	</td>
+	
+	<td>
+		<select name = "pm">
+		<option> AM </option>
+		<option> PM </option>	
+	</td>
+		
+</tr>
+
+</table>
+
+<table cellpadding="6">
+<tr>
+	<td><b>TOTAL MARKS<b></td>
+	
+	<td><div id="s2">
+	<input type ="text" placeholder= "Marks" maxlength="3" name='marks'>
+	</div></td>
+
+</tr>
+
+
+<tr>
+<td width=350px>
+<b>TOTAL QUESTIONS</b>
+</td>
+
+<td><input type="text" name="no" placeholder="0" max-length="2"></td>
+</tr>
+
+
+</table>
+<br>
+
+<center>
+	<input type="submit" value = "SAVE">
+</center>
+</form>
+</body>
+</html>
+
+
+
