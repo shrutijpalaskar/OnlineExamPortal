@@ -1,0 +1,74 @@
+*{
+   padding:0px;
+   margin:0px;
+ }
+#body1
+{
+	  background-attachment:fixed;
+	  background-image:url("books2.jpg");
+	  background-size:1366px 1300px;
+	  background-repeat:no-repeat;
+	  
+}
+#td0
+  {
+      padding-left:25px;
+  }
+
+#td00
+  {
+      padding-left:180px;
+  }
+
+
+ #div1
+    {
+	 
+	  border:3px solid white;
+	  margin:2px auto;
+          padding:0px;
+	  color:white;
+          /*background:black;	*/
+       
+   }
+#table2
+{
+   margin-top:10px;
+   color:white;//white;
+   width:60%;
+   //height:200px;
+}
+#td1
+{
+   height:100px;
+}
+#table3
+{
+   margin-top:10px;
+   color:white;
+   width:1200px;
+   height:200px;
+}
+#table4
+{
+   margin-top:10px;
+   color:white;
+   width:1200px;
+   height:200px;
+}
+#table5
+{
+   margin-top:10px;
+   color:white;
+   width:1200px;
+   height:200px;
+}
+#b1
+{
+   margin-left:450px;
+ }
+ #b2
+{
+   margin-left:100px;
+ }
+ 

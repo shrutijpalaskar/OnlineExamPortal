@@ -1,0 +1,33 @@
+body{
+	background-color : #383838 ;
+}
+
+#outer{
+	width : 920px;
+	border-style : solid;
+	background-image : url('qwerty.jpg');
+}
+
+p{
+	letter-spacing : 2px;
+	font-family : Georgia;
+	font-size : 36px;
+	
+}
+
+.table2{
+	border : 0px;
+}
+
+#image:hover {
+	//border : 5px;
+	//border-style : solid;
+	//border-color : black;
+	height : 290px;
+	width : 290px;
+}
+
+#image:active{
+	height : 280px;
+	width : 280px;
+}
